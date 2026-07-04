@@ -1,25 +1,20 @@
 # E-Commerce Pro 🛒
 
-> Plataforma full-stack de e-commerce com checkout integrado, autenticacao e gestao de estoque.
+> Plataforma full-stack de e-commerce com carrinho, checkout em 3 etapas e gestao de produtos.
 
-## Sobre
-
-Plataforma completa de e-commerce construida com Next.js e Stripe. 
-Implementa carrinho persistente com Redis, checkout em 3 etapas, painel admin 
-para gestao de estoque e autenticacao JWT.
-
-## Stack
-
-Next.js • Stripe • Prisma • PostgreSQL • Redis • TypeScript • Docker
+**Stack:** React + Vite + TypeScript | **Metrica:** Checkout em < 2s — 3 etapas
 
 ## Funcionalidades
-- Carrinho de compras persistente
-- Checkout Stripe com webhooks
-- Painel admin com CRUD de produtos
-- Autenticacao JWT
-- Gestao de estoque em tempo real
-- Deploy containerizado com Docker
+- Vitrine com 10 produtos e filtro por categoria
+- Carrinho com persistencia localStorage
+- Checkout em 3 etapas (dados → pagamento → confirmacao)
+- Interface responsiva com tema escuro
 
-## Metrica
-Checkout completo em menos de 2 segundos — 3 etapas no total.
+## Como rodar
+```bash
+npm install
+npm run dev
+```
+
+🔗 [GitHub](https://github.com/KaduSR/ecommerce-pro)
 
